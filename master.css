@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(208, 208, 208);
+  font-family: 'Outfit', sans-serif;
+  color: #2b2b2b;
+  margin: none;
+  padding: none;
+}
+
+img {
+  margin: -1rem;
+  padding: 1rem 0 1rem 0;
+  width: 20%;
+}
+
+.accent-color {
+  color: #2b2b2b;
+  margin: auto;
+  padding: 1rem 0 1rem 0;
+}
+
+
+.bio-text {
+  justify-content: left;
+  margin: auto;
+  padding: none;
+  text-align: left;
+}
+
+.btn {
+  background-color: #95afa1;
+  color: white;
+  margin: 0.5rem 0;
+  padding: 1rem;
+}
+
+.main-bio {
+  padding: 1rem;
+}

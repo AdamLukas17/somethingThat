@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Waveform | Something that</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="master.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  
+  <script>
+    let array = ["You can buy at Best Buy", "You can buy at Wawa", "You can buy at DBrand", "You can buy at Ridge", "You can buy at a Creator merch store","comes wet", "you have to build yourself"];
+
+    let count = 0;
+
+    function runFunc() {
+      document.getElementById("change")
+      .innerHTML = array[count];
+      count++;
+    }
+</script>
+
+</head>
+
+<body>
+
+  <!-- column_1 includes headers, bios, and contact button-->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+
+        <!-- bio-begins -->
+        <div class="main-bio">
+          <div class="col-md-12">
+            <img src="img/Waveform Cover.jpg" class="profile-img" alt="logo">
+          </div>
+          <h2 class="accent-color"><strong>WVFRM: Recommend Something That..</strong></h2>
+          <h4 id="change"><strong>...</strong></h4>
+          <br>
+         <button type="button" onclick="runFunc()">Click here!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
